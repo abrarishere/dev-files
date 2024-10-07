@@ -23,9 +23,22 @@ config.font_size = 16
 
 config.enable_tab_bar = false
 
-config.window_decorations = "RESIZE"
+config.window_decorations = "NONE"
 config.window_background_opacity = 0.75
 config.macos_window_background_blur = 10
 
+-- config.window_background_image = '/home/abrar/Pictures/Wallpapers/4860962.jpg'
+
+-- config.window_background_image_hsb = {
+--   -- Darken the background image by reducing it to 1/3rd
+--   brightness = 0.1,
+-- }
+-- background
+-- config.background = {
+--   {
+--     source = { File = "/home/abrar/Pictures/Wallpapers/4860962.jpg" },
+--     opacity = 0.7
+--   }
+-- }
 -- and finally, return the configuration to wezterm
 return config
